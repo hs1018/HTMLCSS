@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dd1{
+            border: 10px rebeccapurple solid;
+        }
+        .ddd1{
+            width: 100px;
+            height: 100px;
+            background-color: bisque;
+
+            float: left;
+        }
+        /* .ddd2{
+            clear: both;
+        } */
+        .dd1::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="dd1">
+    <div class="ddd1">
+
+    </div>
+    <!-- <div class="ddd2">
+            aaa
+    </div> -->
+</div>
+
+</body>
+</html>

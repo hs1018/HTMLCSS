@@ -1,0 +1,22 @@
+body{
+    width: 100px;
+    div{
+        height: 200px;
+    }
+}
+
+@a:100px;
+.box{
+    width: @a;
+}
+
+@b:box2;
+.@{b}{
+    width:@a;
+}
+
+div{
+    width: 300px;
+    height: $width;
+}
+

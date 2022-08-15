@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="015reset.css">
+    
+    <style>
+
+        body{
+            /* background-color: #bfa; */
+        }
+
+        .all{
+
+            background-color:white;
+
+            width: 300px;
+            height: 357px;
+
+            border-top: 1px gray solid;
+
+            margin: 20px auto;
+        }
+
+        .head{
+            height: 40px;
+            line-height: 40px;
+
+            display: inline-block;
+            border-top: 1px red solid;
+            margin-top: -1px;
+
+            font-weight: bold;
+        }
+
+        .img{
+            height: 150px;
+        }
+
+        .img-title{
+            margin-top: -30px;
+            padding-left: 30px;
+            font-weight: bold;
+
+            color: white;
+        }
+
+        .last{
+            padding-top: 15px;
+        }
+        .last li{
+            padding-top: 12px;
+        }
+        .last li a{
+            font-size: 14px;
+            color: #666;
+        }
+        .last li a:hover{
+            color: red;
+        }
+
+        .last li::before{
+            content: '■';
+            color: #666;
+            font-size: 12px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="all">
+        <h2 class="head">
+            <a href="">时尚</a>
+        </h2>
+        <div class="img">
+            <a href="">
+                <img src="./picture/04.webp" alt="">
+                <h3 class="img-title">
+                    刘诗诗时尚大片 变冷御暗黑美人
+                </h3>
+            </a>
+        </div>
+        <ul class="last">
+            <li>
+                <a href="#">南京热疯了 没有这条裤子我甚至不想出门</a>
+            </li>
+            <li>
+                <a href="#">40岁也要拒绝老气 参考日系博主穿搭就对了</a>
+            </li>
+            <li>
+                <a href="#">中年女性必备穿搭攻略 要优雅更要显气质</a>
+            </li>
+            <li>
+                <a href="#">碎花裙“又回归”了 尤其是这三种裙装搭配</a>
+            </li>
+        </ul>
+    </div>
+    
+</body>
+</html>
